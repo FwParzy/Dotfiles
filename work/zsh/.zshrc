@@ -13,6 +13,7 @@ bindkey '^ ' autosuggest-accept
 
 alias ls='ls -a'
 alias cd=z
+alias colors='curl -s https://raw.githubusercontent.com/JohnMorales/dotfiles/master/colors/24-bit-color.sh | bash'
 
 # zoxide 
 eval "$(zoxide init zsh)"

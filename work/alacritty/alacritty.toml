@@ -1,5 +1,8 @@
 general.import = [
-    "/Users/maeve/.config/alacritty/themes/themes/one_dark.toml"
+    # "/Users/maeve/.config/alacritty/themes/themes/one_dark.toml"
+    # "/Users/maeve/.config/alacritty/themes/catppuccin-latte.toml"
+    "/Users/maeve/.config/alacritty/themes/catppuccin-frappe.toml"
+
 ]
 general.live_config_reload = true
 
@@ -315,7 +318,7 @@ print_events = false
 render_timer = false
 
 [font]
-size = 13
+size = 12
 
 [font.bold]
 family = "Hurmit Nerd Font"
@@ -335,7 +338,7 @@ style = "Light"
 
 [font.offset]
 x = 0
-y = 4
+y = 1
 
 [mouse]
 hide_when_typing = true
@@ -349,7 +352,7 @@ save_to_clipboard = false
 semantic_escape_chars = ''',│`|:"' ()[]{}<>'''
 
 [window]
-decorations = "full"
+decorations = "Buttonless"
 dynamic_padding = true
 opacity = 1.0
 startup_mode = "Windowed"

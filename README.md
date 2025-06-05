@@ -5,7 +5,10 @@ Backup anything you care about
 
 1. Install Alacritty
 1. `brew install nvim`
+     1. `brew install ripgrep` -- this is for fzf
 1. `brew install tmux`
+     1. `brew install bash` -- this is for 2KAbhishek/tmux2k
+     1. `Ctrl+a I`
 1. `brew install zsh`
      1. `brew install spaceship.zsh`
      1. `brew install zsh-autosuggestions`
